@@ -11,7 +11,7 @@
 [![](https://visitcount.itsvg.in/api?id=phvanlie&icon=5&color=12)](https://visitcount.itsvg.in)
     
 <pre>
-    Text
+    Software & Data Engineer 
 </pre>
     
 <details>
