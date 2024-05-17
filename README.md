@@ -19,7 +19,7 @@
 
 [![An image of @phvanlie's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/phvanlie)](https://holopin.io/@phvanlie)
 
-[![LeetCode user phvanlie](https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fpvanniye&logo=leetcode&logoColor=yellow)](https://leetcode.com/u/phvanlie/)
+[![LeetCode user phvanlie](https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fphvanlie&logo=leetcode&logoColor=yellow)](https://leetcode.com/phvanlie/)
 
 </details>
 
