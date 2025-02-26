@@ -30,4 +30,5 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Mise à jour de la citation quotidienne"
-          git push
+          # Utilisation du Personal Access Token (PAT) stocké dans les secrets GitHub pour pousser les changements
+          git push https://x-access-token:${{ secrets.MY_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
