@@ -12,6 +12,9 @@
     
 <pre>
     Software & Data Engineer 
+<!-- CITE_START -->
+> **La première citation.**
+<!-- CITE_END -->
 </pre>
     
 <details>
