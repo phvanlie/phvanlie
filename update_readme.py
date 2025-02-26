@@ -3,7 +3,7 @@ import datetime
 
 # Liste des citations dans l'ordre
 citations = [
-    "La première citation.",
+    "12345.",
     "La deuxième citation.",
     "La troisième citation.",
     "Et ainsi de suite..."
