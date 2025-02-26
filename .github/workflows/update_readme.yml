@@ -31,4 +31,4 @@ jobs:
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Mise à jour de la citation quotidienne"
           # Utilisation du Personal Access Token (PAT) stocké dans les secrets GitHub pour pousser les changements
-          git push https://x-access-token:${{ secrets.MY_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
+          git push https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/phvanlie/phvanlie.git
