@@ -1,0 +1,34 @@
+name: Update README with Countdown
+
+on:
+  schedule:
+    - cron: "0 8 * * *"  # Exécute tous les jours à 8h UTC (ce qui correspond à 9h en France durant l'heure d'été et 8h en France durant l'heure d'hiver)
+  workflow_dispatch:  # Permet de déclencher manuellement le workflow
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt || true
+
+      - name: Run update script
+        run: python update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Mise à jour de la citation quotidienne"
+          # Utilisation du Personal Access Token (PAT) stocké dans les secrets GitHub pour pousser les changements
+          git push https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com/phvanlie/phvanlie.git
