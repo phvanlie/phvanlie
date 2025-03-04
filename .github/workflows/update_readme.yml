@@ -2,7 +2,8 @@ name: Update README with Quote
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Exécute tous les jours à minuit UTC
+    # Cron exécuté tous les jours à 8h en France (heure d'été : 6h UTC, heure d'hiver : 7h UTC)
+    - cron: "0 8 * * *"  # Exécute tous les jours à 8h en France (heure d'été, UTC+2)
   workflow_dispatch:  # Permet de déclencher manuellement le workflow
 
 jobs:

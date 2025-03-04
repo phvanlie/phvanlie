@@ -12,9 +12,6 @@
     
 <pre>
     Software & Data Engineer 
-<!-- CITE_START -->
-
-<!-- CITE_END -->
 </pre>
     
 <details>
@@ -32,4 +29,7 @@
 
 ---
 
+<!-- AUTO-UPDATE-SECTION -->
 
+
+<!-- END-AUTO-UPDATE-SECTION -->
