@@ -26,12 +26,10 @@ def update_readme():
 
         # Text to insert into the README
         custom_section = f"""
----
 
 📅 **Today's Date:** {get_today_date()}  
 ⏳ **Countdown to New Year:** {get_days_until_new_year()}  
 
----
 """
 
         # Check if the section already exists, otherwise add it to the end
