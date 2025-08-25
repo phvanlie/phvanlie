@@ -31,7 +31,7 @@
 
 <!-- AUTO-UPDATE-SECTION -->
 
-📅 **Today's Date:** Sunday, August 24, 2025  
-⏳ **Countdown to New Year:** **129 days before 2026 ⏱**  
+📅 **Today's Date:** Monday, August 25, 2025  
+⏳ **Countdown to New Year:** **128 days before 2026 ⏱**  
 
 <!-- END-AUTO-UPDATE-SECTION -->
