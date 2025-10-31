@@ -31,7 +31,7 @@
 
 <!-- AUTO-UPDATE-SECTION -->
 
-📅 **Today's Date:** Thursday, October 30, 2025  
-⏳ **Countdown to New Year:** **62 days before 2026 ⏱**  
+📅 **Today's Date:** Friday, October 31, 2025  
+⏳ **Countdown to New Year:** **61 days before 2026 ⏱**  
 
 <!-- END-AUTO-UPDATE-SECTION -->
