@@ -31,7 +31,7 @@
 
 <!-- AUTO-UPDATE-SECTION -->
 
-📅 **Today's Date:** Wednesday, December 24, 2025  
-⏳ **Countdown to New Year:** **7 days before 2026 ⏱**  
+📅 **Today's Date:** Thursday, December 25, 2025  
+⏳ **Countdown to New Year:** **6 days before 2026 ⏱**  
 
 <!-- END-AUTO-UPDATE-SECTION -->
